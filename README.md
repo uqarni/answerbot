@@ -3,3 +3,10 @@ moving to github codespaces, starting from scratch with langchain and streamlit
 
 # seems like I have to reinstall homebrew regularly:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+# code to run
+export OPENAI_API_KEY=''
+streamlit run main.py --server.enableCORS false --server.enableXsrfProtection false
+
+# Git comm
